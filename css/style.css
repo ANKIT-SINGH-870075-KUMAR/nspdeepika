@@ -919,7 +919,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1vmax;
+    /* padding: 1vmax; */
   }
 
   .unlocks .head h2 {
