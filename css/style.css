@@ -1238,8 +1238,11 @@
   }
   
   .copy {
-      padding: 15px;
-      font-size: 15px;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2vmax;
   }
 
   /* Special Icon Secction */
