@@ -890,7 +890,7 @@
   .adBox h1 {
       font-size: 25px;
       color: rgba(255, 217, 0, 0.349);
-      font-weight: lighter;
+      font-weight: bold;
       font-family: jokar;
   
   }
@@ -898,7 +898,7 @@
   .adBox h2 {
       font-size: 28px;
       color: white;
-      font-weight: lighter;
+      font-weight: bold;
       font-family: jokar;
   
   }
