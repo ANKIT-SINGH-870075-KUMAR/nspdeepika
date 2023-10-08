@@ -375,9 +375,13 @@
 
 /* footer Section */
 .footer2 {
+    padding-bottom: 3vmax;
+    height: 18vh;
+    width: 100vw;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     background-color: rgb(224, 221, 221);
 }
@@ -385,7 +389,6 @@
 .list2 {
     display: flex;
     flex-direction: row;
-
 }
 
 .list2 ul {
