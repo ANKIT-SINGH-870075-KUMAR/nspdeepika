@@ -271,34 +271,33 @@
 /* Slick Slider Section */
 .slick{
     width: 100vw;
+    max-width: 100%;
+    background-color: white;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-.imgsec2 {
+  }
+
+  .slickContainer{
     width: 80%;
-    /* height: 600px; */
-    display: flex;
-    justify-content: center;
-    /* align-items: center;*/
-    background-color: red; 
-}
+    overflow: hidden;
+  }
+  .slickBox{
+    width: 100%;
+  }
 
-.imgsec {
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 500px;
-    background-color: aqua;
-}
+  .slickContainer img{
+    width: 10px;
+    height: 300px;
+    margin: 0.6vmax;
+  }
 
-.imgsec img {
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-}
+  .slick-arrow{
+    display: none;
+    visibility: hidden;
+    background: none;
+  }
 
 /* Sign Section */
 .sign {
@@ -710,34 +709,33 @@
 /* Slick Slider Section */
 .slick{
     width: 100vw;
+    max-width: 100%;
+    background-color: white;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-.imgsec2 {
+  }
+
+  .slickContainer{
     width: 80%;
-    /* height: 600px; */
-    display: flex;
-    justify-content: center;
-    /* align-items: center;*/
-    background-color: red; 
-}
+    overflow: hidden;
+  }
+  .slickBox{
+    width: 100%;
+  }
 
-.imgsec {
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 500px;
-    background-color: aqua;
-}
+  .slickContainer img{
+    width: 10px;
+    height: 300px;
+    margin: 0.6vmax;
+  }
 
-.imgsec img {
-    margin: 10px;
-    width: 100px;
-    height: 100px;
-}
+  .slick-arrow{
+    display: none;
+    visibility: hidden;
+    background: none;
+  }
 
 /* Sign Section */
 .sign {
@@ -1125,33 +1123,33 @@
   
   /* Slick Slider Section */
   .slick{
-      width: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .imgsec2 {
-      width: 80%;
-      /* height: 600px; */
-      display: flex;
-      justify-content: center;
-      /* align-items: center;*/
-      background-color: red; 
+
+  .slickContainer{
+    width: 70%;
+    overflow: hidden;
   }
-  
-  .imgsec {
-      width: 70%;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 500px;
+  .slickBox{
+    width: 100%;
   }
-  
-  .imgsec img {
-      margin: 10px;
-      width: 100px;
-      height: 100px;
+
+  .slickContainer img{
+    width: 10px;
+    height: 300px;
+    margin: 0.6vmax;
+  }
+
+  .slick-arrow{
+    display: none;
+    visibility: hidden;
+    background: none;
   }
   
   /* Sign Section */
