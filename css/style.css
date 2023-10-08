@@ -1217,6 +1217,7 @@
       height: 18vh;
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
       bottom: 0;
   }
   
