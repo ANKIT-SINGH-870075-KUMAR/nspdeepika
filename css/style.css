@@ -936,6 +936,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       width: 100%;
+      height: 40vh;
   }
   
   .date .box {
