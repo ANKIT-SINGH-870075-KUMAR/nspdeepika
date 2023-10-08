@@ -1,0 +1,1268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+
+/* Header Section */
+.header {
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    background: transparent;
+    position: fixed;
+    z-index: 11;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 100;
+    font-family: cursive;
+    color: white;
+}
+
+.header h4 {
+    font-size: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* adContainer Section */
+.adContainer {
+    height: 600px;
+    width: 100%;
+    background-color: red;
+    background-image: url("../images/img1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 350px;
+
+}
+
+.adBox h1 {
+    font-size: 40px;
+    color: rgba(255, 217, 0, 0.349);
+    font-weight: lighter;
+    font-family: jokar;
+
+}
+
+.adBox h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    font-family: jokar;
+
+}
+
+/* Unlock Section */
+.unlocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60vh;
+}
+
+.unlocks .head h2 {
+    color: #c9a485;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.date .box {
+    width: 425px;
+    height: 150px;
+    border: 2px solid #c9a485;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date .box h2 {
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.date .box .imgg {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: -70px;
+}
+
+
+/* About Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    margin-top: 100px;
+    width: 100%;
+    height: 180px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    flex-direction: row;
+}
+
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    flex-direction: row;
+}
+
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+}
+
+.main1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.main1 p {
+    font-size: 1vmax;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Welcome Section */
+.welcome {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.video{
+    width: 50%;
+}
+
+.vidoo video {
+    width: 700px;
+    height: 430px;
+}
+
+.intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 100px;
+    font-weight: 100;
+}
+
+.intro p {
+    width: 590px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* invest Section End  */
+.invest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+    background-image: url("https://www.sobharealty.com/images/why-soba-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 0px;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.Dubai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Dubai h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: cursive;
+    color: white;
+}
+
+.boxx1 h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.boxx1 p {
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+/* Slick Slider Section */
+.slick{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.imgsec2 {
+    width: 80%;
+    /* height: 600px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center;*/
+    background-color: red; 
+}
+
+.imgsec {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: aqua;
+}
+
+.imgsec img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/* Sign Section */
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.sign h1 {
+
+    font-size: 35px;
+    font-weight: 100;
+    align-items: center;
+    font-family: cursive;
+}
+
+.sign h2 {
+    font-size: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Register Selection End  */
+.register {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+
+.form form input[type="text"]{
+    padding: 1vmax;
+    width: 300px;
+    margin-right: 1vmax;
+}
+
+.form form input[type="email"]{
+    padding: 1vmax;
+    width: 300px;
+    margin-top: 1vmax;
+    margin: 1vmax 0;
+}
+
+
+.form button {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 20px;
+    margin: 1vmax;
+    font-size: 15px;
+}
+
+.form button:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+/* footer Section */
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(224, 221, 221);
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.list2 ul {
+    padding-left: 150px;
+}
+
+.list2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.list2 ul li:hover {
+    color: gray;
+
+}
+
+.copy {
+    padding: 30px;
+    font-size: 15px;
+}
+
+/* special footer Section */
+.stickfoot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    height: 70px;
+    position: sticky;
+    background-color: white;
+    bottom: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.671);
+}
+
+.stickfoot ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  /* Header Section */
+.header {
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    background: transparent;
+    position: fixed;
+    z-index: 11;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 100;
+    font-family: cursive;
+    color: white;
+}
+
+.header h4 {
+    font-size: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* adContainer Section */
+.adContainer {
+    height: 60vh;
+    width: 100%;
+    background-color: red;
+    background-image: url("../images/img1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+
+}
+
+.adBox h1 {
+    font-size: 40px;
+    color: rgba(255, 217, 0, 0.349);
+    font-weight: lighter;
+    font-family: jokar;
+
+}
+
+.adBox h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    font-family: jokar;
+
+}
+
+/* Unlock Section */
+.unlocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70vh;
+}
+
+.unlocks .head h2 {
+    color: #c9a485;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.date .box {
+    width: 425px;
+    height: 150px;
+    border: 2px solid #c9a485;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vmax;
+}
+
+.date .box h2 {
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.date .box .imgg {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: -70px;
+}
+
+
+/* About Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    margin-top: 100px;
+    width: 100%;
+    height: 30vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    flex-direction: row;
+}
+
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    flex-direction: row;
+}
+
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+}
+
+.main1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.main1 p {
+    font-size: 1vmax;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Welcome Section */
+.welcome {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 500px;
+}
+
+.video{
+    width: 50%;
+}
+
+.vidoo video {
+    width: 500px;
+    height: 380px;
+}
+
+.intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-size: 4vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 100px;
+    font-weight: 100;
+}
+
+.intro p {
+    width: 90%;
+    /* margin-left: 10px; */
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* invest Section End  */
+.invest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+    background-image: url("https://www.sobharealty.com/images/why-soba-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 0px;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.Dubai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Dubai h1 {
+    font-size: 3vmax;
+    font-weight: lighter;
+    font-family: cursive;
+    color: white;
+}
+
+.boxx1 h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.boxx1 p {
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+/* Slick Slider Section */
+.slick{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.imgsec2 {
+    width: 80%;
+    /* height: 600px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center;*/
+    background-color: red; 
+}
+
+.imgsec {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: aqua;
+}
+
+.imgsec img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/* Sign Section */
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.sign h1 {
+
+    font-size: 35px;
+    font-weight: 100;
+    align-items: center;
+    font-family: cursive;
+}
+
+.sign h2 {
+    font-size: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Register Selection End  */
+.register {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+
+.form form input[type="text"]{
+    padding: 1vmax;
+    width: 300px;
+    margin-right: 1vmax;
+}
+
+.form form input[type="email"]{
+    padding: 1vmax;
+    width: 300px;
+    margin-top: 1vmax;
+    margin: 1vmax 0;
+}
+
+
+.form button {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 20px;
+    margin: 1vmax;
+    font-size: 15px;
+}
+
+.form button:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+/* footer Section */
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(224, 221, 221);
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.list2 ul {
+    padding-left: 150px;
+}
+
+.list2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.list2 ul li:hover {
+    color: gray;
+
+}
+
+.copy {
+    padding: 30px;
+    font-size: 15px;
+}
+
+/* special footer Section */
+.stickfoot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    height: 70px;
+    position: sticky;
+    background-color: white;
+    bottom: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.671);
+}
+
+.stickfoot ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px;
+}  
+}
+
+
+@media screen and (max-width: 600px) {
+    /* Header Section */
+  .header {
+      padding: 1vmax;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 100vw;
+      max-width: 100%;
+      background: transparent;
+      position: fixed;
+      z-index: 11;
+  }
+  
+  .header h1 {
+      font-size: 35px;
+      font-weight: 100;
+      font-family: cursive;
+      color: white;
+  }
+  
+  .header h4 {
+      font-size: 8px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* adContainer Section */
+  .adContainer {
+      height: 60vh;
+      width: 100%;
+      background-image: url("../images/img1.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .adBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 200px;
+  
+  }
+  
+  .adBox h1 {
+      font-size: 25px;
+      color: rgba(255, 217, 0, 0.349);
+      font-weight: lighter;
+      font-family: jokar;
+  
+  }
+  
+  .adBox h2 {
+      font-size: 40px;
+      color: white;
+      font-weight: lighter;
+      font-family: jokar;
+  
+  }
+  
+  /* Unlock Section */
+  .unlocks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      height: 110vh;
+  }
+  
+  .unlocks .head h2 {
+      color: #c9a485;
+  }
+  
+  .date {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+  }
+  
+  .date .box {
+      width: 425px;
+      height: 150px;
+      border: 2px solid #c9a485;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 3vmax;
+  }
+  
+  .date .box h2 {
+      color: black;
+      padding: 5px;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+  .date .box .imgg {
+      width: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(255, 255, 255);
+      margin-top: -70px;
+  }
+  
+  
+  /* About Section */
+  .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding-left: 10px;
+      margin-top: 100px;
+      width: 100%;
+      height: 60vh;
+  }
+  
+  .main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 40vh;
+      flex-direction: column;
+  }
+  
+  
+  .main2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 40vh;
+      flex-direction: column;
+  }
+  
+  
+  .main1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 350px;
+  }
+  
+  .main1 img {
+      width: 40px;
+      height: 40px;
+  }
+  
+  .main1 p {
+      font-size: 2vmax;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+  
+  /* Welcome Section */
+  .welcome {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 100px;
+      height: 120vh;
+  }
+  
+  .video{
+      width: 50%;
+  }
+  
+  .vidoo video {
+      width: 380px;
+      height: 380px;
+  }
+  
+  .intro {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .intro h1 {
+      font-size: 4vmax;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      opacity: 100px;
+      font-weight: 100;
+  }
+  
+  .intro p {
+      width: 90%;
+      /* margin-left: 10px; */
+      text-align: center;
+      line-height: 30px;
+      margin-top: 20px;
+      font-size: 18px;
+  }
+  
+  /* invest Section End  */
+  .invest {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 150vh;
+      background-image: url("https://www.sobharealty.com/images/why-soba-bg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  .blog {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding-left: 40px;
+      padding-top: 0px;
+  }
+  
+  .design {
+      display: flex;
+      flex-direction: column;
+      padding: 50px;
+  }
+  
+  .Dubai {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .Dubai h1 {
+      font-size: 3vmax;
+      font-weight: lighter;
+      font-family: cursive;
+      color: white;
+  }
+  
+  .boxx1 h3 {
+      font-size: 20px;
+      font-weight: lighter;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 30px;
+  }
+  
+  .boxx1 p {
+      font-size: 15px;
+      font-weight: lighter;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 250px;
+      line-height: 20px;
+      padding-top: 5px;
+  }
+  
+  /* Slick Slider Section */
+  .slick{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .imgsec2 {
+      width: 80%;
+      /* height: 600px; */
+      display: flex;
+      justify-content: center;
+      /* align-items: center;*/
+      background-color: red; 
+  }
+  
+  .imgsec {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 500px;
+      background-color: aqua;
+  }
+  
+  .imgsec img {
+      margin: 10px;
+      width: 100px;
+      height: 100px;
+  }
+  
+  /* Sign Section */
+  .sign {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 30px;
+  }
+  
+  .sign h1 {
+  
+      font-size: 35px;
+      font-weight: 100;
+      align-items: center;
+      font-family: cursive;
+  }
+  
+  .sign h2 {
+      font-size: 10px;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Register Selection End  */
+  .register {
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      /* align-items: center; */
+      justify-content: space-around;
+      width: 100%;
+      height: 400px;
+  }
+  
+  .form form input[type="text"]{
+      padding: 1vmax;
+      width: 400px;
+      margin-top: 1vmax;
+      margin-left: 1vmax;
+  }
+  
+  .form form input[type="email"]{
+      padding: 1vmax;
+      width: 400px;
+      margin-top: 1vmax;
+      margin-left: 1vmax;
+  }
+  
+  
+  .form button {
+      background-color: black;
+      color: aliceblue;
+      border: none;
+      padding: 20px;
+      margin: 1vmax;
+      font-size: 15px;
+  }
+  
+  .form button:hover {
+      border: 1px solid black;
+      color: black;
+      background-color: white;
+  }
+  
+  /* footer Section */
+  .footer2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: rgb(224, 221, 221);
+  }
+  
+  .list2 {
+    width: 100%;
+    background-color: red;
+      display: flex;
+      flex-direction: row;
+  
+  }
+  
+  .list2 ul {
+      padding-left: 38px;
+  }
+  
+  .list2 ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 15px;
+      font-size: 20px;
+  }
+  
+  .list2 ul li:hover {
+      color: gray;
+  
+  }
+  
+  .copy {
+      padding: 30px;
+      font-size: 15px;
+  }
+  
+  /* special footer Section */
+  .stickfoot {
+      display: flex;
+      flex-direction: center;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 0px;
+      height: 70px;
+      position: sticky;
+      background-color: white;
+      bottom: 0px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.671);
+  }
+  
+  .stickfoot ul li {
+      list-style: none;
+      display: inline-block;
+      padding-left: 60px;
+      padding-right: 60px;
+      font-size: 25px;
+  }  
+  }
