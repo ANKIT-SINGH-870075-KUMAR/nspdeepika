@@ -1247,12 +1247,15 @@
   
   /* footer Section */
   .footer2 {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-      background-color: rgb(224, 221, 221);
-  }
+    width: 100vw;
+    max-width: 100%;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(224, 221, 221);
+}
   
   .list2 {
       width: 100%;
