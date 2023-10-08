@@ -913,8 +913,19 @@
       height: 110vh;
   }
   
+  .unlocks .head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+  }
+
   .unlocks .head h2 {
       text-align: center;
+      width: 80%;
+      padding: 0.3vmax;
+      word-spacing: 0.2vmax;
       color: #c9a485;
   }
   
