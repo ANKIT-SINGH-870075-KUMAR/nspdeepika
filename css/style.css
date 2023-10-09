@@ -1012,7 +1012,7 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 100%;
+        width: 90%;
         height: 130vh;
         background-color: aqua;
     }
@@ -1025,8 +1025,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 3vmax;
-        margin-bottom: 5vmax;
+        margin: 0vmax;
+        margin-bottom: 0vmax;
     }
 
     .date .box h2 {
