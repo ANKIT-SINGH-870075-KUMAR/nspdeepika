@@ -37,7 +37,6 @@
 .adContainer {
     height: 600px;
     width: 100%;
-    background-color: red;
     background-image: url("../images/img1.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -518,7 +517,6 @@
     .adContainer {
         height: 60vh;
         width: 100%;
-        background-color: red;
         background-image: url("../images/img1.webp");
         background-repeat: no-repeat;
         background-size: cover;
