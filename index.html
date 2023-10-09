@@ -130,7 +130,7 @@
                 <h1>WHY INVEST IN SOBHA REALTY</h1>
                 <h1>IN DUBAI?</h1>
             </div>
-        
+
             <div class="blogCards">
                 <section class="blogCard">
                     <div class="blogimg">
@@ -197,7 +197,7 @@
     <div class="slick-laptop">
         <div class="slick">
             <div class="slickContainer">
-                <div class="slickBox multiple-items">
+                <div class="slickBox autoplay">
                     <img src="images/1.webp" />
                     <img src="images/2.webp" />
                     <img src="images/3.webp" />
@@ -247,7 +247,8 @@
                 <input type="email" placeholder="ENTER YOUR EMAIL"><br>
                 <p>Preferred Mode of Contact *</p><br>
                 <input type="radio"> Phone <input type="radio"> Email<br>
-                <input type="checkbox"> I'd like to hear about and offers<br> <input type="checkbox"> I've read and agree to
+                <input type="checkbox"> I'd like to hear about and offers<br> <input type="checkbox"> I've read and
+                agree to
                 th <a
                     href="https://www.sobharealty.com/privacy-policy/?utm_source=Google&utm_medium=PerformanceMax&utm_campaign=PA_GO_PM_OW_SR_OPENHOUSE_ET_TOF_PER_WC_ENG_UAE_130923_OPENHOUSE-23-SEPT&utm_adset=TV_NU_INT_AA_M_OPENHOUSE&utm_creative=NA_VD_NA_LM_OO_OPENHOUSE_NA"><u>Policy</u></a><br>
                 <button>-> SUBMIT</button>
@@ -305,10 +306,12 @@
     <script src="js/slick.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.multiple-items').slick({
+            $('.autoplay').slick({
                 infinite: true,
                 slidesToShow: 3,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
             });
             $('.single-item').slick();
         });
