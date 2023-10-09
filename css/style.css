@@ -1030,8 +1030,8 @@
     .date .box h2 {
         color: black;
         padding: 5px;
-        font-weight: bold;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 2vmax;
     }
 
     .date .box .imgg {
