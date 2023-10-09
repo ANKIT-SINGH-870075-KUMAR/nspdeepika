@@ -1050,10 +1050,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        padding-left: 10px;
+        /* padding-left: 10px; */
+        background-color: red;
         margin-top: 0px;
         width: 100%;
-        height: 60vh;
+        height: 80vh;
+        padding: 5vmax;
     }
 
     .main {
