@@ -987,7 +987,6 @@
         width: 100%;
         height: 140vh;
         padding-top: 1vmax;
-        background-color: aqua;
     }
 
     .unlocks .head {
@@ -1055,7 +1054,6 @@
         width: 100%;
         height: 80vh;
         padding: 5vmax 15vmax;
-        background-color: red;
     }
 
     .main {
