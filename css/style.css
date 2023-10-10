@@ -631,7 +631,7 @@
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 70vh;
+        height: 60vh;
     }
 
     .unlocks .head h2 {
@@ -642,7 +642,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: space-between;
         width: 100%;
     }
@@ -682,7 +682,7 @@
         align-items: center;
         justify-content: space-around;
         padding-left: 10px;
-        margin-top: 100px;
+        margin-top: 0px;
         width: 100%;
         height: 30vh;
     }
@@ -718,7 +718,8 @@
     }
 
     .main1 p {
-        font-size: 1vmax;
+        font-size: 1.2vmax;
+        line-height: 2vmax;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -732,7 +733,7 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 100px;
-        height: 500px;
+        height: 45vh;
     }
 
     .welContainer {
@@ -748,8 +749,9 @@
     }
 
     .vidoo video {
-        width: 500px;
+        width: 300px;
         height: 380px;
+        margin-bottom: 15vmax;
     }
 
     .intro {
@@ -761,7 +763,7 @@
     }
 
     .intro h1 {
-        font-size: 4vmax;
+        font-size: 3.5vmax;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         opacity: 100px;
         font-weight: 100;
@@ -773,13 +775,14 @@
         text-align: center;
         line-height: 30px;
         margin-top: 20px;
-        font-size: 18px;
+        line-height: 2.4vmax;
+        font-size: 1.5vmax;
     }
 
     /* invest Section */
     .invest {
         width: 100vw;
-        height: 70vh;
+        height: 120vh;
         max-width: 100%;
         background-image: url(https://www.sobharealty.com/images/why-soba-bg.png);
         background-repeat: no-repeat;
@@ -857,6 +860,14 @@
     }
 
     /* Slick Slider Section */
+    .slick-laptop{
+        display: none;
+    }
+
+    .slick-mobile{
+        display: flex;
+    }
+
     .slick {
         width: 100vw;
         max-width: 100%;
@@ -888,6 +899,78 @@
         background: none;
     }
 
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        min-height: 20vh;
+      }
+    
+      .container{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        padding: 15px 15px;
+        width: 90%;
+        background-color: white;
+      }
+    
+      .container .card{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 250px;
+        margin-right: 2.2vmax;
+      }
+    
+    .container .card:hover{
+        height: 250px;
+    }
+    
+    .container .card .imgbx img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container .card .content{
+        position: absolute;
+        width: 100%;
+        top: 170px;
+        padding: 0 30px;
+        height: 30px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+    }
+    
+    .container .card:hover .content{
+        top: 100px;
+        height: 150px;
+        padding: 0.8vmax;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .container .card .content h2{
+        font-size: 4vmax;
+        padding-bottom: 1.3vmax;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    
+    
+    .container .card .content p{
+        color: white;
+        font: 300 2vmax sans-serif;
+        word-spacing: 0.4vmax;
+        line-height: 3vmax;
+        text-align: justify;
+        /* font-size: 1.05em; */
+    }
+
     /* Sign Section */
     .sign {
         display: flex;
@@ -914,12 +997,17 @@
     /* Register Selection End  */
     .register {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 100px;
         /* align-items: center; */
         justify-content: space-around;
         width: 100%;
         height: 400px;
+    }
+
+    .register .interest{
+        flex-direction: row;
+        width: 70%;
     }
 
     .form form input[type="text"] {
