@@ -130,7 +130,7 @@
     height: 180px;
 }
 
-.main {
+.Mains {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -338,6 +338,75 @@
     display: none;
     visibility: hidden;
     background: none;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  .container{
+     display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 100px 50px;
+    width: 90%;
+    background-color: white;
+  }
+
+  .container .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+  }
+
+.container .card:hover{
+    height: 300px;
+}
+
+.container .card .imgbx img{
+    width: 90%;
+    height: 100%;
+}
+
+.container .card .content{
+    position: absolute;
+    width: 90%;
+    top: 200px;
+    padding: 0 30px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    top: 12px;
+    height: 250px;
+    padding: 0.5vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container .card .content h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+}
+
+
+.container .card .content p{
+    color: white;
+    font: 300 1vmax sans-serif;
+    word-spacing: 0.4vmax;
+    line-height: 2vmax;
+    text-align: justify;
+    /* font-size: 1.05em; */
 }
 
 /* Sign Section */
@@ -618,7 +687,7 @@
         height: 30vh;
     }
 
-    .main {
+    .Mains {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1062,7 +1131,7 @@
         padding: 5vmax 15vmax;
     }
 
-    .main {
+    .Mains {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1277,6 +1346,78 @@
         display: none;
         visibility: hidden;
         background: none;
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        min-height: 20vh;
+      }
+    
+      .container{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        padding: 15px 15px;
+        width: 90%;
+        background-color: white;
+      }
+    
+      .container .card{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 250px;
+        margin-right: 2.2vmax;
+      }
+    
+    .container .card:hover{
+        height: 250px;
+    }
+    
+    .container .card .imgbx img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container .card .content{
+        position: absolute;
+        width: 100%;
+        top: 170px;
+        padding: 0 30px;
+        height: 30px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+    }
+    
+    .container .card:hover .content{
+        top: 75px;
+        height: 150px;
+        padding: 0.8vmax;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .container .card .content h2{
+        font-size: 2vmax;
+        padding-bottom: 1.3vmax;
+        font-weight: 700;
+        color: white;
+        text-align: left;
+    }
+    
+    
+    .container .card .content p{
+        color: white;
+        font: 300 1.7vmax sans-serif;
+        word-spacing: 0.4vmax;
+        line-height: 2.8vmax;
+        text-align: justify;
+        /* font-size: 1.05em; */
     }
 
     /* Sign Section */
